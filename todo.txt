@@ -1,0 +1,30 @@
+todo.txt
+
+todo items for noctilucence
+
+Visual Concepts
+  . Collisions on datum fitting (lines, circles; planes, cylinders, spheres)
+  . Drop down to a surface 
+
+Modeling
+  . 3d everything
+  . Leaders
+
+Animation
+  . ani can access subcomponents of scene components
+
+
+Animation workflow
+  . Easier to switch between absolute times and relative times & durations
+  . Multiple tracks 
+  . Don't render stuff that's already been rendered when dynamically animating
+  . Have a temporary grid on the rendered image to help with positioning
+
+
+Performance
+  . Opacity is very slow to render
+  . Shouldn't need to rerender images during a pause (i.e. no new instructions)
+  . Don't re-render static backgrounds 
+  
+Infrastructure 
+  . Eliminate visibility? Only use opacity?
