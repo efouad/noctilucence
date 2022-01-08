@@ -8,8 +8,8 @@
 import numpy as np
 from pyquaternion import Quaternion
 import cv2
-from entities.entity import Entity
-import funcs
+from .entity import Entity
+from ..funcs import convex
 
 
 class Point(Entity):
@@ -276,7 +276,7 @@ class Polygon(Face):
                            consecutively ordered according to the geometry. 
         """
         super().__init__(components=points, **kwargs)
-        self.attributes["convex"] = funcs.convex(self) 
+        self.attributes["convex"] = convex(self) 
                 #TODO Re-check if pts change
     
     def get_points(self):

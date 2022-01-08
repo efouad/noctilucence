@@ -8,7 +8,7 @@
 import numpy as np
 from pyquaternion import Quaternion
 import cv2
-from entities.entity import Entity
+from .entity import Entity
 
 
 #TODO: 3d functionality for rotated leaders. Consider using primatives instead.

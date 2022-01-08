@@ -6,7 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sympy import Point as SymPoint
 from sympy import Polygon as SymPolygon
-from entities.primatives import *
 
 
 
@@ -121,6 +120,7 @@ def dist_to_poly(poly, point, dir):
 if __name__ == '__main__':
     
     # Dist to poly testing
+    from entities.primatives import *
     poly = Polygon([P([-1, -1, 0]), 
                     P([-1, -4, 0]), 
                     P([ 4, -4, 0]), 

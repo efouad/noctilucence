@@ -6,7 +6,7 @@
 # captured in the script of a Scene object. 
 #
 
-import funcs
+from . import funcs
 import numpy as np
 
 def pause(scene, duration):

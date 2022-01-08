@@ -6,14 +6,13 @@
 
 
 import numpy as np
-from numpy.linalg import inv
 from pyquaternion import Quaternion
 import cv2
 from collections.abc import Iterable
-from entities.entity import Entity
-from entities.primatives import *
+from .entity import Entity
+from .primatives import *
+from ..funcs import dist_to_poly
 import copy
-from funcs import *
 
 
 class Dial_Indicator(Entity):
