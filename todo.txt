@@ -1,7 +1,6 @@
 todo.txt
 
 todo items for noctilucence
-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
 
 Visual Concepts
   . Collisions on datum fitting (lines, circles; planes, cylinders, spheres)

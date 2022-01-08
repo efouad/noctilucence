@@ -130,3 +130,6 @@ dmypy.json
 
 # Media
 .mp4
+
+# Token
+token.txt
