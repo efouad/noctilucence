@@ -1,5 +1,5 @@
 #
-# 2d_flatness_visualizer.py
+# 2d_flatness_calc.py
 #
 # Solves for minimum zone flatness of a set of 2d points.
 # Visualizes and animates the candidate solutions. 

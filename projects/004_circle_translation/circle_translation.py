@@ -1,7 +1,7 @@
 #
-# main_temp.py
+# circle_translation.py
 #
-# A temporary test animation. 
+# A circle moving back and forth. 
 #
 
 
@@ -62,8 +62,8 @@ if __name__ == '__main__':
     
     # # # Write Animation # # #
     
-    out = cv2.VideoWriter('temp_ani.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, 
-            (width, height))
+    out = cv2.VideoWriter('circle_translation.mp4', 
+            cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
     frames = scene.get_frames()
     print("\nWriting Animation....")
     for frame in frames:

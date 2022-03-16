@@ -1,5 +1,5 @@
 #
-# main_dial.py
+# dial_ani.py
 #
 # A dial indicator performing a flatness inspection.
 #
