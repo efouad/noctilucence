@@ -29,7 +29,6 @@ class Point(Entity):
         
         See Entity.draw_self
         """
-        
         cv2.circle(img, (int(origin[0] + self.gpos()[0] * resolution), 
                          int(origin[1] - self.gpos()[1] * resolution)), 
                          self.attributes["size"], self.attributes["color"], 
